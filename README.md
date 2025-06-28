@@ -12,12 +12,6 @@ JWT_SECRET_KEY=your_secret_key
 ```
 > **Note:** Replace `your_mongodb_connection_string` and `your_secret_key` with actual values.
 
-## Firebase Authentication Setup
-1. Open [Firebase Console](https://console.firebase.google.com/)
-2. Create a new project
-3. Navigate to **Authentication** > **Sign-in Method**
-4. Enable desired sign-in providers (e.g., Google Authentication)
-5. Configure Firebase environment variables:
 ```env
 apiKey=your_api_key
 authDomain=your_project.firebaseapp.com
